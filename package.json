@@ -1,0 +1,38 @@
+{
+  "name": "@pysche/koa-middleware",
+  "version": "1.0.0",
+  "description": "常用的Koa中间件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ext .js --ignore-path .gitignore ./",
+    "lintfix": "eslint --fix --ext .js --ignore-path .gitignore ./"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pysche/dayjs": "^1.0.0",
+    "@pysche/log4js": "^1.0.0",
+    "@pysche/redis": "^1.0.0",
+    "@pysche/sign": "^1.0.0",
+    "config": "^3.3.7",
+    "jsonwebtoken": "^8.5.1",
+    "ramda": "^0.28.0",
+    "util": "^0.12.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^28.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jest": "^22.3.0",
+    "eslint-plugin-no-wildcard-postmessage": "^0.2.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "jest": "^28.1.0"
+  }
+}

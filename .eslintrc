@@ -1,0 +1,59 @@
+{
+  "root": true,
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:security/recommended",
+    "airbnb-base",
+    "sonarjs"
+  ],
+  "plugins": [
+    "security"
+  ],
+  "parserOptions": {
+    "parser": "babel-eslint"
+  },
+  "rules": {
+    "semi": [
+      2,
+      "always"
+    ],
+    "quotes": [
+      2,
+      "single"
+    ],
+    "radix": 0,
+    "eol-last": [
+      2,
+      "always"
+    ],
+    "no-bitwise": 0,
+    "comma-dangle": [
+      2,
+      "never"
+    ],
+    "prefer-template": 0,
+    "sonarjs/prefer-immediate-return": 0,
+    "sonarjs/no-duplicate-string": 0,
+    "new-cap": 0,
+    "no-console": 0,
+    "filenames/match-exported": 0,
+    "security/detect-object-injection": 1,
+    "import/extensions": 0,
+    "camelcase": 0,
+    "no-async-promise-executor": 0,
+    "no-shadow": 0,
+    "standard/no-callback-literal": 0,
+    "arrow-parens": 0,
+    "class-methods-use-this": 0,
+    "max-len": 0,
+    "no-alert": [
+      "error"
+    ],
+    "vue/no-v-html": 0,
+    "func-names": 0
+  }
+}
